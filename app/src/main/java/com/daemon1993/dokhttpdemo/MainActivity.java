@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mb.addFormDataPart("user_head", file.getName(), RequestBody.create(null, file));
         RequestBody requestBody = mb.build();
 
-        String url="http://120.25.200.175:8080/jjying_pc/upd_setUser.action";
+        String url="接口地址";
 
         OkHttpUtil.getInstance().uploadPost2ServerProgress(this,url,requestBody,new OkHttpUtil.MyCallBack(){
 
