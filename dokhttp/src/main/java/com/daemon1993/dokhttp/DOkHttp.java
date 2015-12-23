@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-public class OkHttpUtil {
+public class DOkHttp {
 
     private Handler mainHanlder;
     public OkHttpClient mOkHttpClient;
@@ -30,11 +30,11 @@ public class OkHttpUtil {
 
 
     private static class OkHttpUtilHolder{
-        public static OkHttpUtil mInstance=new OkHttpUtil();
+        public static DOkHttp mInstance=new DOkHttp();
 
     }
 
-    private OkHttpUtil() {
+    private DOkHttp() {
         mOkHttpClient = new OkHttpClient();
         // mOkHttpClient.networkInterceptors().add(new StethoInterceptor());
 
@@ -54,7 +54,7 @@ public class OkHttpUtil {
         return gson;
     }
 
-    public static OkHttpUtil getInstance() {
+    public static DOkHttp getInstance() {
         return OkHttpUtilHolder.mInstance;
     }
 
