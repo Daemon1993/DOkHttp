@@ -2,7 +2,7 @@
 项目中使用的OkHttp 封装使用回调更新UI     上传下载进度更新  
 
 
-![GIF.gif](https://github.com/Daemon1993/DOkHttp/GIF.gif)
+![GIF.gif](https://github.com/Daemon1993/DOkHttp/blob/master/GIF.gif)
 
 使用方法如下
 
